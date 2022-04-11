@@ -28,7 +28,7 @@ namespace ApiDemo.Controllers
             return Ok("Done");
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("PushMessage")]
         public IActionResult PushEmployee(string Message)
         {
